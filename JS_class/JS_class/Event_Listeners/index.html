@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listeners</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: space-around;
+        }
+        .container{
+            background: blue;
+            padding: 1.5rem;
+            color: white;
+            border-radius: 5px;
+            margin: 2rem auto;
+        }
+        h1{
+            text-transform: uppercase;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-bottom: 1.5rem;
+        }
+        button{
+            padding:  1.5rem;
+            background: inherit;
+            color: white;
+            border: 2px solid white;
+            border-radius: 5px;
+            outline: none;
+            text-transform: uppercase;
+            display: block;
+            margin: 10px auto;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Event 1</h1>
+        <button onclick="alert('Button Activated')">Click</button>
+    </div>
+    <div  class="container">
+        <h1>Event 2</h1>
+        <button onclick="welcome">Click</button>
+    </div>
+    <div  class="container">
+        <h1>Event 3</h1>
+        <button class="btn">Click</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
